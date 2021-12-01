@@ -1,0 +1,39 @@
+.main-content {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    align-items: center;
+    z-index: -1;
+}
+
+.cover-image {
+    background-image: linear-gradient(to right, white, transparent),
+    url('../images/5.jpg');
+    height: 600px;
+    width: 800px;
+}
+
+.main-text {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.about-us-content {
+    margin: 100px 50px 100px 50px;
+    overflow: auto;
+    z-index: -1;
+}
+
+.contact-content {
+    margin: 50px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-text {
+    text-align: left;
+    margin: 16px;
+}
